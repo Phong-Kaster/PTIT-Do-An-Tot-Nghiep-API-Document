@@ -15,38 +15,56 @@
   - [**3. Code**](#3-code)
 - [**Document**](#document)
   - [**1. Authentication**](#1-authentication)
-    - [**1.1. Login Patient**](#11-login-patient)
-    - [**1.2. Login Doctor**](#12-login-doctor)
-    - [**1.3. Sign Up**](#13-sign-up)
-    - [**1.4. Recovery**](#14-recovery)
-    - [**1.5. Password Reset**](#15-password-reset)
+    - [**🟡 1.1. Login Patient**](#-11-login-patient)
+    - [**🟡 1.2. Login Doctor**](#-12-login-doctor)
+    - [**🟡 1.3. Sign Up**](#-13-sign-up)
+    - [**🟡 1.4. Recovery**](#-14-recovery)
+    - [**🟡 1.5. Password Reset**](#-15-password-reset)
   - [**2. Patients**](#2-patients)
-    - [**2.1. Read All**](#21-read-all)
-    - [**2.2. Read By ID**](#22-read-by-id)
-    - [**2.3. Update**](#23-update)
-    - [**2.4. Delete**](#24-delete)
+    - [**🟢 2.1. Read All**](#-21-read-all)
+    - [**🟢 2.2. Read By ID**](#-22-read-by-id)
+    - [**🔵 2.3. Update**](#-23-update)
+    - [**🟡 2.4. Delete**](#-24-delete)
   - [**3. Patient Profile**](#3-patient-profile)
-    - [**3.1. Read Personal Information**](#31-read-personal-information)
-    - [**3.2. Change Personal Information**](#32-change-personal-information)
-    - [**3.3. Change Avatar**](#33-change-avatar)
-    - [**3.4. Change Password**](#34-change-password)
+    - [**🟢 3.1. Read Personal Information**](#-31-read-personal-information)
+    - [**🟡 3.2. Change Personal Information**](#-32-change-personal-information)
+    - [**🟡 3.3. Change Avatar**](#-33-change-avatar)
+    - [**🟡 3.4. Change Password**](#-34-change-password)
   - [**4. Patient Booking**](#4-patient-booking)
-    - [**4.1. Read All**](#41-read-all)
-    - [**4.2. Read By ID**](#42-read-by-id)
-    - [**4.3. Create**](#43-create)
-    - [**4.4. Cancel**](#44-cancel)
+    - [**🟢 4.1. Read All**](#-41-read-all)
+    - [**🟢 4.2. Read By ID**](#-42-read-by-id)
+    - [**🟡 4.3. Create**](#-43-create)
+    - [**🔴 4.4. Cancel**](#-44-cancel)
   - [**5. Doctors**](#5-doctors)
-    - [**5.1. Read All**](#51-read-all)
-    - [**5.2. Read By ID**](#52-read-by-id)
-    - [**5.3. Create**](#53-create)
-    - [**5.4. Update**](#54-update)
-    - [**5.5. Delete**](#55-delete)
-    - [**5.6. Update Avatar**](#56-update-avatar)
+    - [**🟢 5.1. Read All**](#-51-read-all)
+    - [**🟢 5.2. Read By ID**](#-52-read-by-id)
+    - [**🟡 5.3. Create**](#-53-create)
+    - [**🔵 5.4. Update**](#-54-update)
+    - [**🔴 5.5. Delete**](#-55-delete)
+    - [**🟡 5.6. Update Avatar**](#-56-update-avatar)
   - [**6. Doctor Profile**](#6-doctor-profile)
-    - [**6.1. Read Personal Information**](#61-read-personal-information)
-    - [**6.2. Change Personal Information**](#62-change-personal-information)
-    - [**6.3. Change Avatar**](#63-change-avatar)
-    - [**6.4. Change Password**](#64-change-password)
+    - [**🟢 6.1. Read Personal Information**](#-61-read-personal-information)
+    - [**🟡 6.2. Change Personal Information**](#-62-change-personal-information)
+    - [**🟡 6.3. Change Avatar**](#-63-change-avatar)
+    - [**🟡 6.4. Change Password**](#-64-change-password)
+  - [**7. Speciality**](#7-speciality)
+    - [**🟢 7.1. Read All**](#-71-read-all)
+    - [**🟢 7.2. Read By ID**](#-72-read-by-id)
+    - [**🟡 7.3. Create**](#-73-create)
+    - [**🔵 7.4. Update**](#-74-update)
+    - [**🔴 7.5. Delete**](#-75-delete)
+  - [**8. Services**](#8-services)
+    - [**🟢 8.1. Read All**](#-81-read-all)
+    - [**🟢 8.2. Read By ID**](#-82-read-by-id)
+    - [**🟡 8.3. Create**](#-83-create)
+    - [**🔵 8.4. Update**](#-84-update)
+    - [**🔴 8.5. Delete**](#-85-delete)
+  - [**9. Rooms**](#9-rooms)
+    - [**🟢 9.1. Read All**](#-91-read-all)
+    - [**🟢 9.2. Read By ID**](#-92-read-by-id)
+    - [**🟡 9.3. Create**](#-93-create)
+    - [**🔵 9.4. Update**](#-94-update)
+    - [**🔴 9.5. Delete**](#-95-delete)
 
 # [**Introduction**](#introduction)
 
@@ -181,7 +199,7 @@ Mục đích chung là phục vụ chức năng đăng nhập & xác thực danh
 
 </h3>
 
-### [**1.1. Login Patient**](#11-login-patient)
+### [**🟡 1.1. Login Patient**](#11-login-patient)
 
 - **Purpose**: Xử lý yêu cầu đăng nhập của bệnh nhân từ Android gửi tới.
 
@@ -208,7 +226,7 @@ Mục đích chung là phục vụ chức năng đăng nhập & xác thực danh
 </p>
 <h3 align="center">
 
-### [**1.2. Login Doctor**](#12-login-doctor)
+### [**🟡 1.2. Login Doctor**](#12-login-doctor)
 
 - **Purpose**: Xử lý yêu cầu đăng nhập của bác sĩ 
 
@@ -235,7 +253,7 @@ Mục đích chung là phục vụ chức năng đăng nhập & xác thực danh
 </p>
 <h3 align="center">
 
-### [**1.3. Sign Up**](#13-sign-up)
+### [**🟡 1.3. Sign Up**](#13-sign-up)
 
 - **Purpose**: đăng ký tài khoản mới
 
@@ -277,7 +295,7 @@ Mục đích chung là phục vụ chức năng đăng nhập & xác thực danh
     <img src="../photo/image1.png"/>
 </p>
 
-### [**1.4. Recovery**](#14-recovery)
+### [**🟡 1.4. Recovery**](#14-recovery)
 
 - **Purpose**: Gửi email để lấy mã xác thực nhằm khôi phục mật khẩu
 
@@ -305,7 +323,7 @@ Mục đích chung là phục vụ chức năng đăng nhập & xác thực danh
     <img src="./photo/document08.png"/>
 </p>
 
-### [**1.5. Password Reset**](#15-password-reset)
+### [**🟡 1.5. Password Reset**](#15-password-reset)
 
 - **Purpose**: Đặt lại mật khẩu mới với mã xác thực nhận từ Email
 
@@ -341,7 +359,7 @@ Mục đích chung là phục vụ chức năng đăng nhập & xác thực danh
 
 Đây là các API dành cho bác sĩ phải có vai trò ADMIN mới có quyền sử dụng
 
-### [**2.1. Read All**](#21-read-all)
+### [**🟢 2.1. Read All**](#21-read-all)
 
 - **Purpose**: Đọc thông tin của tất cả bệnh nhân
 
@@ -375,7 +393,7 @@ Mục đích chung là phục vụ chức năng đăng nhập & xác thực danh
     <img src="./photo/document10.png"/>
 </p>
 
-### [**2.2. Read By ID**](#22-read-all)
+### [**🟢 2.2. Read By ID**](#22-read-all)
 
 - **Purpose**: Đọc thông tin của một bệnh nhân cụ thể
 
@@ -402,7 +420,7 @@ Mục đích chung là phục vụ chức năng đăng nhập & xác thực danh
     <img src="./photo/document11.png" />
 </p>
 
-### [**2.3. Update**](#23-read-all)
+### [**🔵 2.3. Update**](#23-read-all)
 
 - **Purpose**: Cập nhật thông tin của một bệnh nhân
 
@@ -437,7 +455,7 @@ Mục đích chung là phục vụ chức năng đăng nhập & xác thực danh
     <img src="./photo/document12.png"/>
 </p>
 
-### [**2.4. Delete**](#24-read-all)
+### [**🟡 2.4. Delete**](#24-read-all)
 
 - **Purpose**: Xóa một người bệnh. Tuy nhiên, xóa thông tin của bệnh nhân là điều không nên làm bởi chúng ta có thể
 đem thông tin của bệnh nhân để bán cho các bên khác có nhu cầu sử dụng.
@@ -483,7 +501,7 @@ Không có chức năng khôi phục mật khẩu vì bệnh nhân sẽ đăng n
 
 </h3>
 
-### [**3.1. Read Personal Information**](#31-read-personal-information)
+### [**🟢 3.1. Read Personal Information**](#31-read-personal-information)
 
 - **Purpose**: Giúp bệnh nhân xem thông tin cá nhân của mình 
 
@@ -508,7 +526,7 @@ Không có chức năng khôi phục mật khẩu vì bệnh nhân sẽ đăng n
     <img src="./photo/document15.png" />
 </p>
 
-### [**3.2. Change Personal Information**](#32-change-personal-information)
+### [**🟡 3.2. Change Personal Information**](#32-change-personal-information)
 
 - **Purpose**: Hỗ trợ bệnh nhân cập nhật thông tin cá nhân
 
@@ -542,7 +560,7 @@ Không có chức năng khôi phục mật khẩu vì bệnh nhân sẽ đăng n
     <img src="./photo/document16.png" />
 </p>
 
-### [**3.3. Change Avatar**](#33-change-avatar)
+### [**🟡 3.3. Change Avatar**](#33-change-avatar)
 
 - **Purpose**: Hỗ trợ bệnh nhân cập nhật ảnh đại diện
 
@@ -573,7 +591,7 @@ Không có chức năng khôi phục mật khẩu vì bệnh nhân sẽ đăng n
     <img src="./photo/document17.png" />
 </p>
 
-### [**3.4. Change Password**](#34-change-password)
+### [**🟡 3.4. Change Password**](#34-change-password)
 
 - **Purpose**: Hỗ trợ bệnh nhân thay đổi mật khẩu
 
@@ -611,7 +629,7 @@ Không có chức năng khôi phục mật khẩu vì bệnh nhân sẽ đăng n
 
 Mục đích chính là chức năng đặt lịch khám bệnh cho bệnh nhân
 
-### [**4.1. Read All**](#41-read-all)
+### [**🟢 4.1. Read All**](#41-read-all)
 
 - **Purpose**: Hỗ trợ bệnh nhân xem lại lịch sử lịch hẹn của mình
 
@@ -647,7 +665,7 @@ Mục đích chính là chức năng đặt lịch khám bệnh cho bệnh nhân
     <img src="./photo/document19.png" />
 </p>
 
-### [**4.2. Read By ID**](#42-read-by-id)
+### [**🟢 4.2. Read By ID**](#42-read-by-id)
 
 - **Purpose**: Xem chi tiết một lịch hẹn khám bệnh 
 
@@ -675,7 +693,7 @@ Mục đích chính là chức năng đặt lịch khám bệnh cho bệnh nhân
     <img src="./photo/document20.png" />
 </p>
 
-### [**4.3. Create**](#43-create)
+### [**🟡 4.3. Create**](#43-create)
 
 - **Purpose**: Hỗ trợ bệnh nhân tạo mới một lịch hẹn khám bệnh
 
@@ -716,7 +734,7 @@ Mục đích chính là chức năng đặt lịch khám bệnh cho bệnh nhân
     <img src="./photo/document21.png" />
 </p>
 
-### [**4.4. Cancel**](#44-cancel)
+### [**🔴 4.4. Cancel**](#44-cancel)
 
 - **Purpose**: Hỗ trợ bệnh nhân hủy bỏ lịch hẹn đã tạo trước đó
 
@@ -758,7 +776,7 @@ Nếu lịch hẹn này đang **ở trạng thái ĐANG XỬ LÝ**
 
 Mục đích là để quản lý thông tin của các bác sĩ.
 
-### [**5.1. Read All**](#51-read-all)
+### [**🟢 5.1. Read All**](#51-read-all)
 
 - **Purpose**: Xem danh sách bác sĩ với các điều kiện lọc khi cần thiết
 
@@ -800,7 +818,7 @@ Mục đích là để quản lý thông tin của các bác sĩ.
     <img src="./photo/document25.png" />
 </p>
 
-### [**5.2. Read By ID**](#52-read-by-id)
+### [**🟢 5.2. Read By ID**](#52-read-by-id)
 
 - **Purpose**: Xem thông tin một bác sĩ
 
@@ -810,7 +828,7 @@ Mục đích là để quản lý thông tin của các bác sĩ.
 
 - **URL**: {{ENDPOINT_URL}}/api/doctors/19
 
-> 19 là ID của lịch hẹn
+> 19 là ID của bác sĩ
 
 - **Headers**:
    
@@ -827,7 +845,7 @@ Mục đích là để quản lý thông tin của các bác sĩ.
     <img src="./photo/document26.png" />
 </p>
 
-### [**5.3. Create**](#53-create)
+### [**🟡 5.3. Create**](#53-create)
 
 - **Purpose**: Tạo tài khoản cho một bác sĩ với mật khẩu là ngẫu nhiên và được gửi tới email
 được dùng để đăng kí tài khoản
@@ -864,7 +882,7 @@ Mục đích là để quản lý thông tin của các bác sĩ.
     <img src="./photo/document28.png" />
 </p>
 
-### [**5.4. Update**](#54-update)
+### [**🔵 5.4. Update**](#54-update)
 
 - **Purpose**: Cập nhật thông tin cá nhân của bác sĩ
 
@@ -901,7 +919,7 @@ Mục đích là để quản lý thông tin của các bác sĩ.
     <img src="./photo/document29.png" />
 </p>
 
-### [**5.5. Delete**](#55-delete)
+### [**🔴 5.5. Delete**](#55-delete)
 
 - **Purpose**: Xóa bác sĩ
 
@@ -938,7 +956,7 @@ Trường hợp 2 - bác sĩ bị vô hiệu hóa do đã có các dữ liệu k
 </p>
 
 
-### [**5.6. Update Avatar**](#56-update-avatar)
+### [**🟡 5.6. Update Avatar**](#56-update-avatar)
 
 - **Purpose**: Xóa bác sĩ
 
@@ -975,7 +993,7 @@ Trường hợp 2 - bác sĩ bị vô hiệu hóa do đã có các dữ liệu k
 
 Mục đích giúp bác sĩ cập nhật ảnh đại diện & thông tin cá nhân của mình.
 
-### [**6.1. Read Personal Information**](#61-read-personal-information)
+### [**🟢 6.1. Read Personal Information**](#61-read-personal-information)
 
 - **Purpose**: Giúp bác sĩ xem thông tin cá nhân của mình 
 
@@ -1000,7 +1018,7 @@ Mục đích giúp bác sĩ cập nhật ảnh đại diện & thông tin cá nh
 </p>
 
 
-### [**6.2. Change Personal Information**](#62-change-personal-information)
+### [**🟡 6.2. Change Personal Information**](#62-change-personal-information)
 
 - **Purpose**: Bác sĩ tự cập nhật thông tin cá nhân
 
@@ -1033,7 +1051,7 @@ Mục đích giúp bác sĩ cập nhật ảnh đại diện & thông tin cá nh
 </p>
 
 
-### [**6.3. Change Avatar**](#63-change-avatar)
+### [**🟡 6.3. Change Avatar**](#63-change-avatar)
 
 - **Purpose**: Hỗ trợ bác sĩ cập nhật ảnh đại diện
 
@@ -1063,7 +1081,7 @@ Mục đích giúp bác sĩ cập nhật ảnh đại diện & thông tin cá nh
     <img src="./photo/document35.png" />
 </p>
 
-### [**6.4. Change Password**](#64-change-password)
+### [**🟡 6.4. Change Password**](#64-change-password)
 
 - **Purpose**: Hỗ trợ bác sĩ thay đổi mật khẩu
 
@@ -1091,7 +1109,485 @@ Mục đích giúp bác sĩ cập nhật ảnh đại diện & thông tin cá nh
 
 - **Respone**:
 
-
 <p align="center">
     <img src="./photo/document36.png" />
+</p>
+
+
+## [**7. Speciality**](#7-speciality)
+
+Mục đính để quản lý các chuyên khoa của bác sĩ
+
+### [**🟢 7.1. Read All**](#71-read-all)
+
+- **Purpose**: Xem danh sách các chuyên khoa
+
+- **Permission**: ADMIN
+
+- **Method**: 🟢 **GET**
+
+- **Permission**: ADMIN - SUPPORTER - DOCTOR
+
+- **URL**: {{ENDPOINT_URL}}/api/specialities/
+
+- **Headers**:
+   
+    | Tên                  | Giá Trị                                                                   |
+    |----------------------|---------------------------------------------------------------------------|
+    |Authentication        |{{ACCESS_TOKEN}}                                                           |
+    |Content-Type          |application/x-www-form-urlencoded                                          |
+
+- **Body**: bỏ trống
+
+- **Params**:
+
+    | Tên                   |  Ý nghĩa                                                                          |
+    |-----------------------|-----------------------------------------------------------------------------------|
+    |search                |Từ khóa tìm kiếm                                                                    |           
+    |order[dir]            |Chiều sắp xếp kết quả. Nhận 2 giá trị asc(tăng dần) & desc(giảm dần)                |
+    |order[column]         |Cột được sử dụng để sắp xếp kết quả. Mặc định là ID                                 |
+    |length                |Số lượng kết quả trả về. Mặc định là không giới hạn                                 |
+    |start                 |Kết quả tìm kiếm bắt đầu từ vị trí thứ mấy. Ví dụ nhập 1 thì kết quả đầu tiên bị bỏ qua|
+
+- **Respone**:
+
+<p align="center">
+    <img src="./photo/document37.png" />
+</p>
+
+### [**🟢 7.2. Read By ID**](#72-read-by-id)
+
+- **Purpose**: Xem thông tin một chuyên khoa
+
+- **Permission**: ADMIN
+
+- **Method**: 🟢 **GET**
+
+- **URL**: {{ENDPOINT_URL}}/api/specialities/19
+
+> 19 là ID của chuyên khoa
+
+- **Headers**:
+   
+    | Tên                  | Giá Trị                                                                   |
+    |----------------------|---------------------------------------------------------------------------|
+    |Authentication        |{{ACCESS_TOKEN}}                                                   |
+    |Content-Type          |application/x-www-form-urlencoded                                          |
+
+- **Body**: bỏ trống
+
+- **Respone**:
+
+<p align="center">
+    <img src="./photo/document38.png" />
+</p>
+
+### [**🟡 7.3. Create**](#73-create)
+
+- **Purpose**: Tạo mới chuyên khoa
+
+- **Permission**: ADMIN
+
+- **Method**: 🟡 **POST**
+
+- **URL**: {{ENDPOINT_URL}}/api/specialites
+
+- **Headers**:
+   
+    | Tên                  | Giá Trị                                                                   |
+    |----------------------|---------------------------------------------------------------------------|
+    |Authentication        |{{ACCESS_TOKEN}}                                                   |
+    |Content-Type          |application/x-www-form-urlencoded                                          |
+
+- **Body**:
+  
+    | Tên                   | Tùy chọn | Ý nghĩa                                                                           |
+    |-----------------------|----------|-----------------------------------------------------------------------------------|
+    | Name                  | Bắt buộc | Tên chuyên khoa                                                                   |
+    | Description           | Bắt buộc | Mô tả                                                                             |     
+
+- **Respone**:
+
+<p align="center">
+    <img src="./photo/document39.png" />
+</p>
+
+
+### [**🔵 7.4. Update**](#74-update)
+
+- **Purpose**: Cập nhật thông tin chuyên khoa
+
+- **Permission**: ADMIN
+
+- **Method**: 🔵 **PUT**
+
+- **URL**: {{ENDPOINT_URL}}/api/specialites/10
+
+10 là id của chuyên khoa
+
+- **Headers**:
+   
+    | Tên                  | Giá Trị                                                                   |
+    |----------------------|---------------------------------------------------------------------------|
+    |Authentication        |{{ACCESS_TOKEN}}                                                   |
+    |Content-Type          |application/x-www-form-urlencoded                                          |
+
+- **Body**:
+  
+    | Tên                   | Tùy chọn | Ý nghĩa                                                                           |
+    |-----------------------|----------|-----------------------------------------------------------------------------------|
+    | Name                  | Bắt buộc | Tên chuyên khoa                                                                   |
+    | Description           | Bắc buộc | Mô tả                                                                             |     
+
+- **Respone**:
+
+<p align="center">
+    <img src="./photo/document40.png" />
+</p>
+
+### [**🔴 7.5. Delete**](#75-delete)
+
+- **Purpose**: Xóa chuyên khoa. Nếu có bác sĩ đang thuộc chuyên khoa bị xóa thì sẽ hiển thị thông báo
+
+- **Permission**: ADMIN
+
+- **Method**: 🔴 **DELETE**
+
+- **URL**: {{ENDPOINT_URL}}/api/specialites/10
+
+10 là id của chuyên khoa
+
+- **Headers**:
+   
+    | Tên                  | Giá Trị                                                                   |
+    |----------------------|---------------------------------------------------------------------------|
+    |Authentication        |{{ACCESS_TOKEN}}                                                   |
+    |Content-Type          |application/x-www-form-urlencoded                                          |
+
+- **Body**: 
+
+- **Respone**:
+
+Trường hợp 1 - chuyên khoa tồn tại bác sĩ đang làm việc
+
+<p align="center">
+    <img src="./photo/document41.png" />
+</p>
+
+Trường hợp 2 - chuyên khoa không tồn tại bác sĩ nào
+
+<p align="center">
+    <img src="./photo/document42.png" />
+</p>
+
+## [**8. Services**](#8-service)
+
+Mục đích để quản lý các dịch vụ mà bệnh nhân sẽ lựa chọn để đặt lịch khám.
+
+### [**🟢 8.1. Read All**](#81-read-all)
+
+- **Purpose**: Xem danh sách các dịch vụ
+
+- **Permission**: ADMIN - SUPPORTER - MEMBER - PATIENT
+
+- **Method**: 🟢 **GET**
+
+- **URL**: {{ENDPOINT_URL}}/api/services/
+
+- **Headers**:
+   
+    | Tên                  | Giá Trị                                                                   |
+    |----------------------|---------------------------------------------------------------------------|
+    |Authentication        |{{ACCESS_TOKEN}}                                                           |
+    |Content-Type          |application/x-www-form-urlencoded                                          |
+
+- **Body**: bỏ trống
+
+- **Params**:
+
+    | Tên                   |  Ý nghĩa                                                                          |
+    |-----------------------|-----------------------------------------------------------------------------------|
+    |search                |Từ khóa tìm kiếm                                                                    |           
+    |order[dir]            |Chiều sắp xếp kết quả. Nhận 2 giá trị asc(tăng dần) & desc(giảm dần)                |
+    |order[column]         |Cột được sử dụng để sắp xếp kết quả. Mặc định là ID                                 |
+    |length                |Số lượng kết quả trả về. Mặc định là không giới hạn                                 |
+    |start                 |Kết quả tìm kiếm bắt đầu từ vị trí thứ mấy. Ví dụ nhập 1 thì kết quả đầu tiên bị bỏ qua|
+
+- **Respone**:
+
+<p align="center">
+    <img src="./photo/document43.png" />
+</p>
+
+### [**🟢 8.2. Read By ID**](#82-read-by-id)
+
+- **Purpose**: Xem thông tin một dịch vụ
+
+- **Permission**: ADMIN
+
+- **Method**: 🟢 **GET**
+
+- **URL**: {{ENDPOINT_URL}}/api/services/19
+
+> 19 là ID của dịch vụ
+
+- **Headers**:
+   
+    | Tên                  | Giá Trị                                                                   |
+    |----------------------|---------------------------------------------------------------------------|
+    |Authentication        |{{ACCESS_TOKEN}}                                                   |
+    |Content-Type          |application/x-www-form-urlencoded                                          |
+
+- **Body**: bỏ trống
+
+- **Respone**:
+
+<p align="center">
+    <img src="./photo/document44.png" />
+</p>
+
+### [**🟡 8.3. Create**](#83-create)
+
+- **Purpose**: Tạo mới dịch vụ. Nếu tên này đã được sử dụng sẽ hiển thị ra thông báo.
+
+- **Permission**: ADMIN
+
+- **Method**: 🟡 **POST**
+
+- **URL**: {{ENDPOINT_URL}}/api/services
+
+- **Headers**:
+   
+    | Tên                  | Giá Trị                                                                   |
+    |----------------------|---------------------------------------------------------------------------|
+    |Authentication        |{{ACCESS_TOKEN}}                                                           |
+    |Content-Type          |application/x-www-form-urlencoded                                          |
+
+- **Body**:
+  
+    | Tên                   | Tùy chọn | Ý nghĩa                                                                           |
+    |-----------------------|----------|-----------------------------------------------------------------------------------|
+    | Name                  | Bắt buộc | Tên dịch vụ                                                                       |     
+
+- **Respone**:
+
+<p align="center">
+    <img src="./photo/document45.png" />
+</p>
+
+
+### [**🔵 8.4. Update**](#84-update)
+
+- **Purpose**: Cập nhật thông tin dịch vụ. Nếu tên này đã được sử dụng sẽ hiển thị ra thông báo.
+
+- **Permission**: ADMIN
+
+- **Method**: 🔵 **PUT**
+
+- **URL**: {{ENDPOINT_URL}}/api/services/10
+
+> 10 là ID của dịch vụ
+
+- **Headers**:
+   
+    | Tên                  | Giá Trị                                                                   |
+    |----------------------|---------------------------------------------------------------------------|
+    |Authentication        |{{ACCESS_TOKEN}}                                                           |
+    |Content-Type          |application/x-www-form-urlencoded                                          |
+
+- **Body**:
+  
+    | Tên                   | Tùy chọn | Ý nghĩa                                                                           |
+    |-----------------------|----------|-----------------------------------------------------------------------------------|
+    | Name                  | Bắt buộc | Tên dịch vụ                                                                       |     
+
+- **Respone**:
+
+<p align="center">
+    <img src="./photo/document46.png" />
+</p>
+
+### [**🔴 8.5. Delete**](#85-delete)
+
+- **Purpose**: Xóa dịch vụ
+
+- **Permission**: ADMIN
+
+- **Method**: 🔴 **DELETE**
+
+- **URL**: {{ENDPOINT_URL}}/api/services/10
+
+10 là id của chuyên khoa
+
+- **Headers**:
+   
+    | Tên                  | Giá Trị                                                                   |
+    |----------------------|---------------------------------------------------------------------------|
+    |Authentication        |{{ACCESS_TOKEN}}                                                   |
+    |Content-Type          |application/x-www-form-urlencoded                                          |
+
+- **Body**: 
+
+- **Respone**:
+
+<p align="center">
+    <img src="./photo/document47.png" />
+</p>
+
+## [**9. Rooms**](#9-room)
+
+Mục đích để quản lý các dịch vụ mà bệnh nhân sẽ lựa chọn để đặt lịch khám.
+
+### [**🟢 9.1. Read All**](#91-read-all)
+
+- **Purpose**: Xem danh sách phòng khám nơi mà bác sĩ đang làm việc
+
+- **Permission**: ADMIN - SUPPORTER - MEMBER - PATIENT
+
+- **Method**: 🟢 **GET**
+
+- **URL**: {{ENDPOINT_URL}}/api/rooms/
+
+- **Headers**:
+   
+    | Tên                  | Giá Trị                                                                   |
+    |----------------------|---------------------------------------------------------------------------|
+    |Authentication        |{{ACCESS_TOKEN}}                                                           |
+    |Content-Type          |application/x-www-form-urlencoded                                          |
+
+- **Body**: bỏ trống
+
+- **Params**:
+
+    | Tên                   |  Ý nghĩa                                                                          |
+    |-----------------------|-----------------------------------------------------------------------------------|
+    |search                |Từ khóa tìm kiếm                                                                    |           
+    |order[dir]            |Chiều sắp xếp kết quả. Nhận 2 giá trị asc(tăng dần) & desc(giảm dần)                |
+    |order[column]         |Cột được sử dụng để sắp xếp kết quả. Mặc định là ID                                 |
+    |length                |Số lượng kết quả trả về. Mặc định là không giới hạn                                 |
+    |start                 |Kết quả tìm kiếm bắt đầu từ vị trí thứ mấy. Ví dụ nhập 1 thì kết quả đầu tiên bị bỏ qua|
+
+- **Respone**:
+
+<p align="center">
+    <img src="./photo/document48.png" />
+</p>
+
+### [**🟢 9.2. Read By ID**](#92-read-by-id)
+
+- **Purpose**: Xem thông tin một phòng khám cụ thể
+
+- **Permission**: ADMIN
+
+- **Method**: 🟢 **GET**
+
+- **URL**: {{ENDPOINT_URL}}/api/rooms/19
+
+> 19 là ID của phòng khám
+
+- **Headers**:
+   
+    | Tên                  | Giá Trị                                                                   |
+    |----------------------|---------------------------------------------------------------------------|
+    |Authentication        |{{ACCESS_TOKEN}}                                                   |
+    |Content-Type          |application/x-www-form-urlencoded                                          |
+
+- **Body**: bỏ trống
+
+- **Respone**:
+
+<p align="center">
+    <img src="./photo/document49.png" />
+</p>
+
+### [**🟡 9.3. Create**](#93-create)
+
+- **Purpose**: Tạo mới phòng khám. Nếu tên này đã được sử dụng sẽ hiển thị ra thông báo.
+
+- **Permission**: ADMIN
+
+- **Method**: 🟡 **POST**
+
+- **URL**: {{ENDPOINT_URL}}/api/rooms
+
+- **Headers**:
+   
+    | Tên                  | Giá Trị                                                                   |
+    |----------------------|---------------------------------------------------------------------------|
+    |Authentication        |{{ACCESS_TOKEN}}                                                           |
+    |Content-Type          |application/x-www-form-urlencoded                                          |
+
+- **Body**:
+  
+    | Tên                   | Tùy chọn | Ý nghĩa                                                                           |
+    |-----------------------|----------|-----------------------------------------------------------------------------------|
+    | Name                  | Bắt buộc | Tên phòng khám                                                                    |     
+    | Location              | Bắt buộc | Vị trí phòng khám                                                                 |        
+
+- **Respone**:
+
+<p align="center">
+    <img src="./photo/document49.png" />
+</p>
+
+
+### [**🔵 9.4. Update**](#94-update)
+
+- **Purpose**: Cập nhật phòng khám
+
+- **Permission**: ADMIN
+
+- **Method**: 🔵 **PUT**
+
+- **URL**: {{ENDPOINT_URL}}/api/rooms/10
+
+> 10 là ID của phòng khám
+
+- **Headers**:
+   
+    | Tên                  | Giá Trị                                                                   |
+    |----------------------|---------------------------------------------------------------------------|
+    |Authentication        |{{ACCESS_TOKEN}}                                                           |
+    |Content-Type          |application/x-www-form-urlencoded                                          |
+
+- **Body**:
+  
+    | Tên                   | Tùy chọn | Ý nghĩa                                                                           |
+    |-----------------------|----------|-----------------------------------------------------------------------------------|
+    | Name                  | Bắt buộc | Tên phòng khám                                                                       |   
+    | Location              | Bắt buộc | Vị trí phòng khám                                                                 |       
+
+- **Respone**:
+
+<p align="center">
+    <img src="./photo/document51.png" />
+</p>
+
+### [**🔴 9.5. Delete**](#95-delete)
+
+- **Purpose**: Xóa phòng khám
+
+- **Permission**: ADMIN
+
+- **Method**: 🔴 **DELETE**
+
+- **URL**: {{ENDPOINT_URL}}/api/rooms/10
+
+10 là id của phòng khám
+
+- **Headers**:
+   
+    | Tên                  | Giá Trị                                                                   |
+    |----------------------|---------------------------------------------------------------------------|
+    |Authentication        |{{ACCESS_TOKEN}}                                                   |
+    |Content-Type          |application/x-www-form-urlencoded                                          |
+
+- **Body**: 
+
+- **Respone**:
+
+Trường hợp đặc biệt: có bác sĩ đang làm việc ở phòng khám
+
+<p align="center">
+    <img src="./photo/document52.png" />
 </p>
